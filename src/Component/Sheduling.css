@@ -1,0 +1,138 @@
+.scheduling-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 18px;
+  margin-top: 90px;
+  box-shadow: 0 8px 32px #0002;
+  padding: 32px 24px;
+}
+
+.schedule-title {
+  text-align: center;
+  color: #e11d48;
+  margin-bottom: 24px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.week-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.week-btn {
+  padding: 8px 22px;
+  border: none;
+  border-radius: 20px;
+  background: #f3f3f3;
+  color: #e11d48;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.week-btn.active,
+.week-btn:hover {
+  background: linear-gradient(to right, #e11d48, #be123c);
+  color: #fff;
+}
+
+.schedule-table-wrapper {
+  overflow-x: auto;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #eee;
+  padding: 12px 10px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.schedule-table th {
+  background: #f8f8f8;
+  color: #be123c;
+  font-weight: 700;
+}
+
+.schedule-table td:first-child {
+  font-weight: 600;
+  color: #e11d48;
+  background: #f8f8f8;
+}
+
+.slot-dot {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.slot-dot.present {
+  background: #e11d48;
+  opacity: 1;
+  box-shadow: 0 0 6px #e11d48aa;
+}
+
+.slot-dot.absent {
+  background: #eee;
+  opacity: 0.4;
+}
+@keyframes cellTransformIn {
+  from {
+    opacity: 0;
+    transform: scale(0.4) rotateY(60deg) translateY(40px);
+    filter: blur(2px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) rotateY(0deg) translateY(0);
+    filter: blur(0);
+  }
+}
+
+/* Animate each row with a slight delay for transformer effect */
+.schedule-table tbody tr {
+  opacity: 1;
+  animation: none;
+}
+
+.schedule-table td, .schedule-table th {
+  opacity: 0;
+  animation: cellTransformIn 0.7s cubic-bezier(.77,0,.18,1) forwards;
+  /* The delay will be set inline via style prop in JSX */
+}
+
+/* Hover effect for each cell */
+.schedule-table td {
+  transition: transform 0.2s cubic-bezier(.77,0,.18,1), box-shadow 0.2s;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+.schedule-table td:hover {
+  transform: scale(1.15) rotateZ(-3deg);
+  box-shadow: 0 4px 18px #e11d4840;
+  background: #fff0f5;
+}
+
+/* Optional: highlight the dot on hover */
+.schedule-table td:hover .slot-dot.present {
+  box-shadow: 0 0 12px #e11d48, 0 0 0 4px #fff0f5;
+  opacity: 1;
+}
+.schedule-table td:hover .slot-dot.absent {
+  opacity: 0.7;
+}

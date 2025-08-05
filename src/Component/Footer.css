@@ -1,0 +1,179 @@
+.gym-footer {
+  background: #181818;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+}
+
+.gym-footer-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.2rem;
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 3rem 2rem 1.5rem 2rem;
+  border-bottom: 1px solid #333;
+}
+
+.gym-footer-about {
+  flex: 1 1 260px;
+  min-width: 220px;
+  margin-left: 60px;
+  margin-bottom: 2rem;
+}
+
+.gym-footer-logo {
+  width: 170px;
+  margin-bottom: 0.01rem;
+}
+
+.gym-footer-description {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  margin-bottom: 1.5rem;
+}
+
+.gym-footer-socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.gym-footer-socials a {
+  color: #e11d48;
+  background: #fff;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.gym-footer-socials a:hover {
+  background: #e11d48;
+  color: #fff;
+}
+
+.gym-footer-services,
+.gym-footer-explore,
+.gym-footer-timings {
+  flex: 1 1 160px;
+  min-width: 160px;
+  margin-bottom: 2rem;
+}
+.gym-footer-services{
+  margin-left: 60px;
+}
+
+.gym-footer-services h2,
+.gym-footer-explore h2,
+.gym-footer-timings h2 {
+  color: #e11d48;
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+}
+
+.gym-footer-services ul,
+.gym-footer-explore ul,
+.gym-footer-timings ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gym-footer-services li,
+.gym-footer-explore li,
+.gym-footer-timings li {
+  margin-bottom: 0.7rem;
+  font-size: 1.2rem;
+}
+
+.gym-footer-services a,
+.gym-footer-explore a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.gym-footer-services a:hover,
+.gym-footer-explore a:hover {
+  color: #e11d48;
+}
+
+.gym-footer-phone {
+  color: #e11d48;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.gym-footer-phone:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.gym-footer-bottom {
+  text-align: center;
+  color: #aaa;
+  font-size: 0.95rem;
+  padding: 1rem 0 0.5rem 0;
+  background: #181818;
+}
+.gym-footer-contactus {
+  flex: 1 1 200px;
+  min-width: 180px;
+  margin-bottom: 2rem;
+}
+.gym-footer-contactus h2 {
+  color: #e11d48;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.gym-footer-contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.gym-footer-contact-list li {
+  margin-bottom: 0.7rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.gym-footer-contact-list a {
+  color: #e11d48;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.gym-footer-contact-list a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.map-icon {
+  font-size: 1.1em;
+}
+
+@media (max-width: 900px) {
+  .gym-footer-main {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    padding: 2rem 0.5rem 1rem 0.5rem;
+    gap: 2rem;
+    box-sizing: border-box;
+  }
+  .gym-footer-about,
+  .gym-footer-services,
+  .gym-footer-explore,
+  .gym-footer-timings {
+    min-width: unset;
+    width: 100%;
+    text-align: center;
+    margin-left: 0; /* Remove left margin on small screens */
+  }
+}
