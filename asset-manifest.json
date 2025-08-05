@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9848444.css",
-    "main.js": "/static/js/main.ac6579b0.js",
-    "static/js/453.dbbf2003.chunk.js": "/static/js/453.dbbf2003.chunk.js",
-    "static/media/Lift.mp4": "/static/media/Lift.7b2b4bd2733e6c120136.mp4",
-    "static/media/gymvideo.mp4": "/static/media/gymvideo.f8989c1044ae9b84d149.mp4",
-    "static/media/core.mp4": "/static/media/core.b9bfea075586d86b8675.mp4",
-    "static/media/running.mp4": "/static/media/running.189f064a9bdb80bbef42.mp4",
-    "static/media/strength.mp4": "/static/media/strength.a3d4d689ab8e058933d8.mp4",
-    "static/media/Stretch.mp4": "/static/media/Stretch.d7aa4d9a5794dee9cbbb.mp4",
-    "static/media/cardio.mp4": "/static/media/cardio.64acc39c719cb81f414d.mp4",
-    "static/media/clean.webp": "/static/media/clean.2606df4be180c40305f4.webp",
-    "static/media/trainers.webp": "/static/media/trainers.0d869c6f14168ee93d4e.webp",
-    "static/media/equipment.webp": "/static/media/equipment.ef221251105e398d3c9e.webp",
-    "static/media/community.webp": "/static/media/community.908b6156daf1f230f55b.webp",
-    "static/media/logo.png": "/static/media/logo.378730ede0f01bc86bfe.png",
-    "index.html": "/index.html",
-    "static/media/blob.svg": "/static/media/blob.4b6ab2c5f86e7431ce14.svg",
-    "main.e9848444.css.map": "/static/css/main.e9848444.css.map",
-    "main.ac6579b0.js.map": "/static/js/main.ac6579b0.js.map",
-    "453.dbbf2003.chunk.js.map": "/static/js/453.dbbf2003.chunk.js.map"
+    "main.css": "/gymsite/static/css/main.35490f9b.css",
+    "main.js": "/gymsite/static/js/main.26054daa.js",
+    "static/js/453.dbbf2003.chunk.js": "/gymsite/static/js/453.dbbf2003.chunk.js",
+    "static/media/Lift.mp4": "/gymsite/static/media/Lift.7b2b4bd2733e6c120136.mp4",
+    "static/media/gymvideo.mp4": "/gymsite/static/media/gymvideo.f8989c1044ae9b84d149.mp4",
+    "static/media/core.mp4": "/gymsite/static/media/core.b9bfea075586d86b8675.mp4",
+    "static/media/running.mp4": "/gymsite/static/media/running.189f064a9bdb80bbef42.mp4",
+    "static/media/strength.mp4": "/gymsite/static/media/strength.a3d4d689ab8e058933d8.mp4",
+    "static/media/Stretch.mp4": "/gymsite/static/media/Stretch.d7aa4d9a5794dee9cbbb.mp4",
+    "static/media/cardio.mp4": "/gymsite/static/media/cardio.64acc39c719cb81f414d.mp4",
+    "static/media/clean.webp": "/gymsite/static/media/clean.2606df4be180c40305f4.webp",
+    "static/media/trainers.webp": "/gymsite/static/media/trainers.0d869c6f14168ee93d4e.webp",
+    "static/media/equipment.webp": "/gymsite/static/media/equipment.ef221251105e398d3c9e.webp",
+    "static/media/community.webp": "/gymsite/static/media/community.908b6156daf1f230f55b.webp",
+    "static/media/logo.png": "/gymsite/static/media/logo.378730ede0f01bc86bfe.png",
+    "index.html": "/gymsite/index.html",
+    "static/media/blob.svg": "/gymsite/static/media/blob.4b6ab2c5f86e7431ce14.svg",
+    "main.35490f9b.css.map": "/gymsite/static/css/main.35490f9b.css.map",
+    "main.26054daa.js.map": "/gymsite/static/js/main.26054daa.js.map",
+    "453.dbbf2003.chunk.js.map": "/gymsite/static/js/453.dbbf2003.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9848444.css",
-    "static/js/main.ac6579b0.js"
+    "static/css/main.35490f9b.css",
+    "static/js/main.26054daa.js"
   ]
 }
