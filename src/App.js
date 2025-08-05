@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Component/Navbar';
 import ScrollToTop from './Component/ScrollToTop';
 import Footer from './Component/Footer'
@@ -16,7 +16,7 @@ import StartStrong from './Component/StartStrong';
 
 function App() {
   return (
-     <Router basename="/gymsite">
+     <Router>
       <ScrollToTop />
       <Navbar />
       <Routes>
